@@ -1,0 +1,27 @@
+# Ignore node_modules folder
+api/node_modules/
+client/node_modules/
+
+# Ignore logs and temporary files
+api/logs/
+client/logs/
+api/tmp/
+client/tmp/
+
+# Ignore IDE/Editor specific files
+api/.vscode/
+client/.vscode/
+api/.idea/
+client/.idea/
+
+# Ignore OS generated files
+api/.DS_Store
+client/.DS_Store
+
+# Ignore environment specific files
+api/.env
+client/.env
+
+# Ignore package-lock.json file
+api/package-lock.json
+client/package-lock.json
